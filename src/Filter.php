@@ -5,11 +5,11 @@
  *
  * Global filters handler.
  *
- * @package Protein
+ * @package Proteins
  * @author  "Stefano Azzolini"  <lastguest@gmail.com>
  */
 
-namespace Protein;
+namespace Proteins;
 
 abstract class Filter {
     use Filters {

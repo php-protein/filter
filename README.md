@@ -7,18 +7,19 @@
 ---
 
 ```
-composer require protein/filter
+composer require proteins/filter
 ```
+
 Require the global class via :
 
 ```php
-use Protein\Filter;
+use Proteins\Filter;
 ```
 
 or the include the trait in your classes via :
 
 ```php
-use Protein\Filters;
+use Proteins\Filters;
 
 class MyClass {
     use Filters;

@@ -5,11 +5,11 @@
  *
  * Class trait for permitting users to override data via callback hooks.
  *
- * @package Protein
+ * @package Proteins
  * @author  "Stefano Azzolini"  <lastguest@gmail.com>
  */
 
-namespace Protein;
+namespace Proteins;
 
 trait Filters {
     protected static $_modders = [];
