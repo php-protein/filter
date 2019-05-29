@@ -34,7 +34,7 @@ trait Filters {
         if (null === $modder) {
             unset(static::$_modders[$name]);
         } else {
-            if ($idx = array_search($modder, static::$_modders[$name], true)) {
+            if ($idx = \array_search($modder, static::$_modders[$name], true)) {
                 unset(static::$_modders[$name][$idx]);
             }
         }
